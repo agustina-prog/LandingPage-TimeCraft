@@ -1,20 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LandingPage-TimeCraft</title>
-    <link rel="stylesheet" href="css/main.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LandingPage-TimeCraft</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
-</head>
-<body>
-
-    <div class="container text-center mt-5">
-    <h1 class="text-primary">Hola Bootstrap</h1>
-    <button class="btn btn-success">Botón listo</button>
-</div>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <img src="./Img/logo/logo_azul_timeCraft.png" alt="Logotipo de TimeCraft" class="logo-nabvar">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav ms-auto">
+                                <a class="nav-link" aria-current="page" href="#">Porque Usarla</a>
+                                <a class="nav-link" href="#">Como funciona?</a>
+                                <a class="nav-link" href="#">Precio</a>
+                                <a class="btn btn-primary" href="#">Descargar</a>
+                            </div>
+                        </div>
+                    </div>
+        </nav>
+        <header class= "hero container-fluid">
+            <div class= "hero-text">
+                <h1>Tu Agenda <br>Inteligente</h1>
+                <p>
+                    Organizá tu semana sin estrés.
+                </p>
+            <div class="button">
+                <a class="btn animate__animated animate__pulse my-pulse" href="#">DESCARGAR</a>
+                <a class="btn-primary animate__animated animate__pulse my-pulse" href="#">VER DEMO</a>
+            </div>
+            </div>
+            <div class="hero-img">
+                <img  src="./Img/header/imagen-header-timecraft.png" alt="Imagen de una pantalla de la app en mobile">
+            </div>
+        </header>
+        <main>
+            <section class="feature">
+                <h2>Todo lo que necesitas <br>para tu vida estudiantil</h2>
+                <div class="cards"> 
+                    <figure class="card">
+                        <img src="./Img/icons/notifications_100dp_FFFF_FILL1_wght400_GRAD0_opsz48.svg" alt="icono notificaciones">
+                        <figcaption>Recordatorios Inteligentes</figcaption>
+                        <p>Exámenes, tareas y fechas limites siempre bajo control.</p>
+                    </figure>
+                    <figure class="card">
+                        <img src="./Img/icons/calendar_month_100dp_FFFF_FILL1_wght400_GRAD0_opsz48.svg" alt="icono calendario">
+                        <figcaption>Horarios smart</figcaption>
+                        <p>Creá tu semana en segundos</p>
+                    </figure>
+                    <figure class="card">
+                        <img src="./Img/icons/star_100dp_FFFF_FILL1_wght400_GRAD0_opsz48.svg" alt="icono estrella">
+                        <figcaption>Hábitos y progreso</figcaption>
+                        <p>Construye constancia, visualiza tu evolución</p>
+                    </figure>
+                </div>
+            </section>
+            <section >
+                <h2>Funciones destacadas</h2>
+                <article>
+                    <h3>Calendario</h3>
+                    <div class="seccion-card animate__animated animate__fadeInUp my-fade">
+                    <img src="./Img/seccion3/calendario1_TimeCraft.png" alt="esto es una imagen de un movil con la pantalla del calendario">
+                        <div class="text">
+                            <p>Sincroniza con tu calendario en segundos.</p>
+                            <p>Compatible con Google, Apple y Outlook.</p>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <h3>Rutinas</h3>
+                    <div class="seccion-card reverse animate__animated animate__fadeInUp my-fade">
+                        <img src="./Img/seccion3/checklist1_TimeCraft.png" alt="esto es una imagen de un movil con la pantalla de rutinas logradas">
+                        <div class="text">
+                            <p>Rutinas automáticas según tu carga académica.</p>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <h3>Progreso</h3>
+                    <div class="seccion-card  animate__animated animate__fadeInUp my-fade" >
+                        <img src="./Img/seccion3/progreso1_TimeCraft.png" alt="esto es una imagen de un movil con la pantalla de progreso">
+                        <div class="text">
+                            <p>Ve tu avance, celebra tus logros</p>
+                        </div>
+                    </div>
+                </article>
+            </section>
+            <section class="seccion-tres">
+                <h3>Historias reales de estudiantes</h3>
+                <div class="seccion-historias">
+                    <div class="card-historias">
+                        <figure>
+                        <img src="./Img/seccion4/joven-rubia-encantadora-mujer-aislada.png" alt="una mujer joven y rubia">
+                        <figcaption>Luciana, 19</figcaption>
+                        <p>“Desde que uso esta agenda digital dejé de olvidar entregas. Ahora sé exactamente qué tengo que hacer cada día.”</p>
+                    </figure>
+                    </div>
+                    <div class="card-historias">
+                        <figure>
+                            <img src="./Img/seccion4/retrato-de-un-joven-sonriente.png" alt="un joven sexo masculino sonriente">
+                            <figcaption>Mariano, 22</figcaption>
+                            <p>“Antes anotaba todo en papeles que perdía. Esta app me salvó más de una vez en semana de parciales.”</p>
+                        </figure>
+                    </div>
+                    <div class="card-historias">
+                    <figure>
+                        <img src="./Img/seccion4/mujer-joven-feliz-de-pie-con-los-brazos-cruzados-por-la-pared-gris-mirando.png" alt="mujer joven muy feliz">
+                        <figcaption>Camila, 21</figcaption>
+                        <p>“Lo que más me gusta son los recordatorios. Me siento mucho más tranquila con mis tareas bajo control.”</p>
+                    </figure>
+                    </div>
+                </div>
+            </section>
+            <section class="ultima-seccion">
+                <h3>Organiza tu vida estudiantil desde hoy!</h3>
+                <div class="button">
+                    <a  class="btn animate__animated animate__pulse my-pulse" href="#">DESCARGAR</a>
+                    <a class="btn-primary animate__animated animate__pulse my-pulse"" href="#">VER DEMO</a>
+                </div>
+                <div class="icons">
+                    <img src="./Img/icons/icons8-mac-os-100.png" alt="icono de mac">
+                    <img src="./Img/icons/icons8-android-os-100 (1).png" alt="icono de android">
+                </div>
+            </section>
+        </main>
+        <footer class= "container-fluid">
+            <div>
+            <img src="./Img/logo/logo_azul_timeCraft.png" alt="logotipo de TimeCraft" class="logo-nabvar">
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        <a href="#">Enlace</a>
+                    </li>
+                    <li>
+                        <a href="#">Soporte</a>
+                    </li>
+                    <li>
+                        <a href="#">Privacidad</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="redes">
+                <a href="#">
+                        <img class="icono" src="./Img/icons/icons8-tik-tok-100.png" alt="Visitar la pagina de tik tok" >
+                    </a>
+                    <a href="#">
+                        <img class="icono" src="./img/icons/icons8-instagram-100.png" alt="Visitar la pagina de Instagram" >
+                    </a>
+                    <a href="#">
+                        <img class="icono" src="./Img/icons/icons8-x-100.png" alt="Visitar la pagina de X">
+                    </a>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
 </html>

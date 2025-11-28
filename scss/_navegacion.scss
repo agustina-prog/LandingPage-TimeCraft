@@ -1,0 +1,13 @@
+nav{
+    display: flex;
+    background: linear-gradient(to right, $fourth-color, $secondary-color);
+}
+
+
+.nav-link{
+    font-weight: 600;
+    color: $primary-color;
+}
+.logo-navbar {
+    width: 30%;
+}

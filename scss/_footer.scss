@@ -1,0 +1,32 @@
+footer{
+    background: linear-gradient(to right, $fourth-color, $secondary-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 2%;
+    gap: 30%;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    font-family: $font-family-primary;
+    color: $primary-color;
+    font-weight: 600;
+    
+}
+.redes {
+  display: flex;              
+  align-items: center;
+
+
+.icono {
+  width: 40px;                
+  height: 40px;
+  object-fit: contain;
+}
+}
